@@ -1,0 +1,59 @@
+
+
+
+
+
+/* Apply styles to all HTML elements */
+* {
+    font-size: xx-large; /* Set the font size to be extra large */
+    padding-left: 10px; /* Add 10 pixels of padding to the left */
+    padding-right: 10px; /* Add 10 pixels of padding to the right */
+    padding-top: 10px; /* Add 10 pixels of padding to the top */
+}
+
+/* Apply background image to all div elements */
+div {
+    background-image: url(https://wallpapers.com/images/featured/light-color-s0s3phxvwu24nnza.webp);
+}
+
+/* Apply center alignment to all h1 elements */
+h1 {
+    text-align: center; /* Center align the text */
+}
+
+/* Apply styles to elements with class .para_1 */
+.para_1 {
+    font-style: italic; /* Make the text italic */
+    text-align: center; /* Center align the text */
+    background-color: aqua; /* Set the background color to aqua */
+}
+
+/* Apply styles to elements with class .para_2 */
+.para_2 {
+    font-style: inherit; /* Inherit font style from the parent */
+    text-align: center; /* Center align the text */
+    background-color: darkseagreen; /* Set the background color to darkseagreen */
+}
+
+/* Apply styles to elements with class .para_3 */
+.para_3 {
+    font-style: initial; /* Reset font style to initial value */
+    text-align: center; /* Center align the text */
+    background-color: blanchedalmond; /* Set the background color to blanchedalmond */
+}
+
+/* Apply styles to elements with class .para_4 */
+.para_4 {
+    font-style: oblique; /* Make the text oblique */
+    text-align: center; /* Center align the text */
+    background-color: rgb(172, 245, 100); /* Set the background color using an RGB value */
+}
+
+/* Apply styles to elements with class .para_5 */
+.para_5 {
+    font-style: normal; /* Set the font style to normal */
+    text-align: center; /* Center align the text */
+    background-color: yellow; /* Set the background color to yellow */
+}
+
+/* I have named the class by taking para as the common name for multiple classes and by using numbers I've differentiated the classes like para_1 ,para_2.etc */
